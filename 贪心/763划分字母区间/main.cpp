@@ -30,7 +30,7 @@ public:
         }
 
         vector<int> part_list;
-        int first = last = 0;
+        int first = 0, last = 0;
         while(first < s.size()) {
             last = first;
             for(int i = first; i < s.size() && i <= last; i++) {
