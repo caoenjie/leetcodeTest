@@ -36,6 +36,17 @@
 
 524.[通过删除字母匹配到字典里最长单词](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
 
+# 二分查找
+69.[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)
 
+34.[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+81.[搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+
+154.[寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+
+540.[有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)
+
+4.[寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
 
 
