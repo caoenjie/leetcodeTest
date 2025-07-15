@@ -1,3 +1,5 @@
+这个分支以算法为主，数据结构为辅的形式进行练习，题目均来自leetcode
+
 # 贪心算法
 455.[分发饼干](https://leetcode-cn.com/problems/assign-cookies/)
 
