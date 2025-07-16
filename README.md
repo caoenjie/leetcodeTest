@@ -1,6 +1,8 @@
 这个分支以算法为主，数据结构为辅的形式进行练习，题目均来自leetcode
 
 # 贪心算法
+保证局部最优的情况，得到全局最优
+
 455.[分发饼干](https://leetcode-cn.com/problems/assign-cookies/)
 
 135.[分发糖果](https://leetcode-cn.com/problems/candy/)
@@ -19,9 +21,15 @@
 
 665.[非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/)
 
-392.[判断子序列](https://leetcode-cn.com/problems/is-subsequence/)
-
 # 双指针
+双指针指的是在一个数据结构上同时使用两个指针（索引）来遍历、查找、比较或移动，以达到比单指针更高效的目的。
+| 类型       | 描述             | 举例用途                |
+| -------- | -------------- | ------------------- |
+| **对撞指针** | 一头一尾，向中间靠拢     | 判断是否是回文串、两数之和（有序数组） |
+| **快慢指针** | 一个指针走得快，一个慢    | 链表找环、删除重复元素、滑动窗口    |
+| **滑动窗口** | 两个指针控制子数组/子串范围 | 最长子串、最小覆盖子串、子数组和问题  |
+
+
 167.[两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
 
 88.[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
