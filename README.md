@@ -47,6 +47,8 @@
 524.[通过删除字母匹配到字典里最长单词](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
 
 # 二分查找
+用于有序数据中查找目标值。每次将搜索范围折半，直到找到目标或搜索区间为空
+
 69.[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)
 
 34.[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
