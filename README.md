@@ -61,4 +61,23 @@
 
 4.[寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
 
+# 排序算法
+🧩 一、比较类排序算法
+| 算法                   | 最坏时间复杂度      | 平均时间复杂度    | 空间复杂度    | 是否稳定 | 适用场景       |
+| -------------------- | ------------ | ---------- | -------- | ---- | ---------- |
+| 冒泡排序（Bubble Sort）    | O(n²)        | O(n²)      | O(1)     | ✅    | 教学用或数据近乎有序 |
+| 插入排序（Insertion Sort） | O(n²)        | O(n²)      | O(1)     | ✅    | 小规模数据/基本有序 |
+| 选择排序（Selection Sort） | O(n²)        | O(n²)      | O(1)     | ❌    | 简单但效率低     |
+| 希尔排序（Shell Sort）     | O(n^1.3\~n²) | O(n^1.5)   | O(1)     | ❌    | 插入排序的改进    |
+| 归并排序（Merge Sort）     | O(n log n)   | O(n log n) | O(n)     | ✅    | 大规模、稳定要求   |
+| 快速排序（Quick Sort）     | O(n²)        | O(n log n) | O(log n) | ❌    | 最常用的高效排序   |
+| 堆排序（Heap Sort）       | O(n log n)   | O(n log n) | O(1)     | ❌    | 不稳定但空间效率好  |
 
+🔢 二、非比较类排序算法（适用于整数等有限范围）
+| 算法                  | 时间复杂度     | 空间复杂度    | 是否稳定 | 特点         |
+| ------------------- | --------- | -------- | ---- | ---------- |
+| 计数排序（Counting Sort） | O(n + k)  | O(k)     | ✅    | 数据范围小、正整数  |
+| 桶排序（Bucket Sort）    | O(n + k)  | O(n + k) | ✅    | 数据分布均匀时高效  |
+| 基数排序（Radix Sort）    | O(n \* k) | O(n + k) | ✅    | 适合定长整数或字符串 |
+
+215.[数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/description/)
