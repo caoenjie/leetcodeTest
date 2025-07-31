@@ -81,3 +81,9 @@
 | 基数排序（Radix Sort）    | O(n \* k) | O(n + k) | ✅    | 适合定长整数或字符串 |
 
 215.[数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/description/)
+
+347.[前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/description/)
+
+451.[根据字符出现频率排序](https://leetcode.cn/problems/sort-characters-by-frequency/description/)
+
+75.[颜色分类](https://leetcode.cn/problems/sort-colors/)
